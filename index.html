@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calcultor</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Simple Calcultor</h1>
+      <form id="form">
+        <label for="number1">Number 1:</label>
+        <input type="text" name="number1" />
+        <label for="operation">operation:</label>
+        <select name="operand" id="">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <label for="number2">Number 2:</label>
+        <input type="text" name="number2" />
+        <input type="submit" value="Calculate" />
+        <p class="d-none col-6 mess" id="error_mess"></p>
+      </form>
+      <h3>Result</h3>
+      <p id="result"></p>
+    </section>
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>

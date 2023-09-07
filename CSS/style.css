@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+table {
+  text-align: center;
+  margin: 0 auto;
+}
+th,
+td {
+  width: 200px;
+  padding: 5px;
+}
+h1,
+h3 {
+  margin: 30px auto;
+}
+form {
+  margin-bottom: 30px;
+}
+.mess {
+  margin: 30px auto;
+  font-size: 20px;
+  background-color: rgb(247, 179, 179);
+  text-align: left;
+  padding: 10px;
+  color: rgb(16, 11, 11);
+}
